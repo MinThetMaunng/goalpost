@@ -17,6 +17,7 @@
 		D95DA23D23CCE4CA009698BE /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95DA23C23CCE4CA009698BE /* GoalCell.swift */; };
 		D9A637D923CDC0E40098DD0B /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A637D823CDC0E40098DD0B /* GoalType.swift */; };
 		D9A637DB23CDCCCF0098DD0B /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A637DA23CDCCCF0098DD0B /* CreateGoalVC.swift */; };
+		D9A637DD23CDD4070098DD0B /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A637DC23CDD4070098DD0B /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D95DA23C23CCE4CA009698BE /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		D9A637D823CDC0E40098DD0B /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		D9A637DA23CDCCCF0098DD0B /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		D9A637DC23CDD4070098DD0B /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		D95DA23B23CCD6BE009698BE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D9A637DC23CDD4070098DD0B /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				D95DA22623CCD671009698BE /* GoalsVC.swift in Sources */,
 				D95DA22223CCD671009698BE /* AppDelegate.swift in Sources */,
+				D9A637DD23CDD4070098DD0B /* UIViewControllerExt.swift in Sources */,
 				D9A637D923CDC0E40098DD0B /* GoalType.swift in Sources */,
 				D95DA22C23CCD672009698BE /* goalpost.xcdatamodeld in Sources */,
 				D9A637DB23CDCCCF0098DD0B /* CreateGoalVC.swift in Sources */,
