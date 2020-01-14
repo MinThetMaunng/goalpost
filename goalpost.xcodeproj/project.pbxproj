@@ -15,6 +15,8 @@
 		D95DA22E23CCD672009698BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95DA22D23CCD672009698BE /* Assets.xcassets */; };
 		D95DA23123CCD672009698BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95DA22F23CCD672009698BE /* LaunchScreen.storyboard */; };
 		D95DA23D23CCE4CA009698BE /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95DA23C23CCE4CA009698BE /* GoalCell.swift */; };
+		D9A637D923CDC0E40098DD0B /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A637D823CDC0E40098DD0B /* GoalType.swift */; };
+		D9A637DB23CDCCCF0098DD0B /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A637DA23CDCCCF0098DD0B /* CreateGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D95DA23023CCD672009698BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D95DA23223CCD672009698BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95DA23C23CCE4CA009698BE /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		D9A637D823CDC0E40098DD0B /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		D9A637DA23CDCCCF0098DD0B /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				D95DA22523CCD671009698BE /* GoalsVC.swift */,
+				D9A637DA23CDCCCF0098DD0B /* CreateGoalVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 		D95DA23A23CCD6B9009698BE /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				D9A637D823CDC0E40098DD0B /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 			files = (
 				D95DA22623CCD671009698BE /* GoalsVC.swift in Sources */,
 				D95DA22223CCD671009698BE /* AppDelegate.swift in Sources */,
+				D9A637D923CDC0E40098DD0B /* GoalType.swift in Sources */,
 				D95DA22C23CCD672009698BE /* goalpost.xcdatamodeld in Sources */,
+				D9A637DB23CDCCCF0098DD0B /* CreateGoalVC.swift in Sources */,
 				D95DA23D23CCE4CA009698BE /* GoalCell.swift in Sources */,
 				D95DA22423CCD671009698BE /* SceneDelegate.swift in Sources */,
 			);
