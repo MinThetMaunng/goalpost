@@ -25,12 +25,13 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         createGoalBtn.bindToKeyboard()
         pointsTextField.delegate = self
     }
     
     @IBAction func createGoalBtnPressed(_ sender: Any) {
-        if pointsTextField.text != nil && pointsTextField.text != "" {
+        if pointsTextField.text != nil {
             self.save { (complete) in
                 if complete {
                     dismiss(animated: true, completion: nil)
