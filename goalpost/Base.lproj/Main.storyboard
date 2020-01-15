@@ -355,6 +355,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="CreateGoalVC" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0E-pU-xpZ">
                                         <rect key="frame" x="15" y="33" width="14" height="25"/>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="9vU-Ws-hyh" eventType="touchUpInside" id="vmA-tv-L2Y"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
